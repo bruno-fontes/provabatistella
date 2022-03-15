@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aaaaaaaaa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <ul class="ul-nav-principal">
+            <li><a class="a-nav" href="index.html">Home</a></li>
+            <li><a class="a-nav" href="sobre.html">Sobre</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1 class="h1-container">Velocidade Média</h1>
+        <input class ="inpt-container" id="valor-deslocamento" placeholder="Valor do deslocamento">
+        <br>
+        <input class ="inpt-container" id="valor-intervalo-tempo" placeholder="Intervalo de tempo">
+        <br>
+        <input class ="inpt-container-vdm" id="resultado" placeholder="Velocidade média calculada" readonly>
+        <br>
+        <div class="btns-div">
+            <button class="btn-container" onclick="limparDados()">Limpar</button>
+            <button class="btn-container" onclick="calcular()">Calcular</button>
+        </div>
+
+    </div>
+    <div class="container-resultados">
+        <h1 class="h1-resultados">Resultados:</h1>
+        <br>
+        <textarea id="resultados-salvos" readonly></textarea>
+    </div>
+
+    <div class="footer">
+        <p>SENAI SC</p>
+        
+        <p>Curso de Desenvolvimento de Sistemas</p>
+       
+        <p>Lógica de Programação</p>
+      
+        <p>Bruno Fontes Rios</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
