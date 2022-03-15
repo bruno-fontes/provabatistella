@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    border: 0;
+    background-image: url(dalea.jpg);
+    background-size: 120%;
+}
+.ul-nav-principal{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+.nav-bar{
+    background-color: gray;
+    padding: 1%;
+}
+.a-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+
+}
+.a-nav:hover{
+ color: black;
+}
+
+.container{
+    position: absolute;
+    margin-left: 31%;
+    margin-top: 10%;
+    background-color: gray;
+    height: 45%;
+    width: 40%;
+    border-radius: 10%;
+}
+
+.h1-container{
+    text-align: center;
+
+}
+.inpt-container{
+    color: black;
+    background-color: white;
+    margin-left: 33%;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: none;
+}
+.inpt-container-vdm{
+    color: black;
+    background-color: white;
+    margin-left: 33%;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: none;
+}
+.btns-div{
+    display: flex;
+    justify-content: right;
+    margin-top: 2%;
+}
+.btn-container{
+padding: 2%;
+border-radius: 10px;
+border: none;
+margin-right: 4%;
+margin-top: 2%;
+cursor: pointer;
+}
+.btn-container:hover{
+    border: 1px solid black;
+}
+
+
+.container-resultados{
+    position: absolute;
+    background-color: gray;
+    margin-left: 31%;
+    margin-top: 40%;
+    height: 45%;
+    width: 40%;
+    border-radius: 10%;
+}
+.h1-resultados{
+    text-align: center;
+}
+textarea{
+    height: 50%;
+    width: 80%;
+    margin-left: 8%;
+}
+.footer{
+    margin-top: 70%;
+    background-color: gray;
+    padding: 1%;
+}
+.container-sobre{
+    width: 60%;
+    background-color: gray;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.footer-sobre{
+    margin-top: 40%;
+    background-color: gray;
+    padding: 1%;
+}
